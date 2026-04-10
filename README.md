@@ -8,7 +8,7 @@
 ## Task 3 - Trello + Google sheet + Automation
 
 ### Task 3.1 - أنشئ لوحة مهام باستخدام Trello أو Notion
-![Trello Board](./3-%20Trello%20+%20Google%20sheet%20+%20Automation/trello.png)
+![Trello Board](./3-%20Trello%20+%20Google%20sheet%20+%20Automation/Trello.png)
 
 ### Task 3.2 - أنشئ نموذج Google Form واربطه بجداول Google Sheets
 ![Google Form](./3-%20Trello%20+%20Google%20sheet%20+%20Automation/googleform.png)
