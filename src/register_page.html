@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+        <link href="output.css" rel="stylesheet">
+        <title>Jiilna</title>
+    </head>
+    <body class="bg-primary min-h-screen flex items-center justify-center selection:bg-selection">
+        <div class="bg-white sm:max-w-xl w-full m-2 rounded-2xl shadow-lg p-6 flex flex-col gap-5">
+            <div class="text-2xl font-semibold text-center">Contact Us</div>
+            <div class="flex flex-col gap-4">
+
+                <div class="flex flex-col sm:flex-row gap-3">
+                    <div class="flex flex-col w-full">
+                        <label class="capitalize text-sm mb-1">first name</label>
+                        <input type="text" placeholder="enter your first name"
+                                class="capitalize border border-secondary rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-secondary/60">
+                    </div>
+
+                    <div class="flex flex-col w-full">
+                        <label class="capitalize text-sm mb-1">last name</label>
+                        <input type="text" placeholder="enter your last name"
+                                class="capitalize border border-secondary rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-secondary/60">
+                    </div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row gap-3">
+                    <div class="flex flex-col w-full">
+                        <label class="capitalize text-sm mb-1">email</label>
+                        <input type="email" placeholder="enter your email"
+                                class="capitalize border border-secondary rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-secondary/60">
+                    </div>
+
+                    <div class="flex flex-col w-full">
+                        <label class="capitalize text-sm mb-1">phone number</label>
+                        <input type="text" placeholder="enter your phone"
+                                class="capitalize border border-secondary rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-secondary/60">
+                    </div>
+                </div>
+
+                <div class="flex flex-col">
+                    <label class="capitalize text-sm mb-1">message</label>
+                    <textarea placeholder="Enter Your Message"
+                            class="border rounded-lg p-2 h-32 resize-none focus:outline-none focus:ring-2 focus:ring-secondary/60"></textarea>
+                </div>
+
+                <a class="bg-secondary text-white px-4 py-2 rounded-lg hover:bg-secondary/80 hover:cursor-pointer transition text-center">Send Message</a>
+            </div>
+        </div>
+    </body>
+</html>
